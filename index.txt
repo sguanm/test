@@ -8,12 +8,10 @@ git push
 git branch master
 git rm -r filename   删除本地仓库文件名
 git rm -f filename   强制删除本地仓库文件名
-
 git remote             查看远端的仓库
 git pull   拉取远程数据仓库的数据  『合并了 git fetch 远程仓库  + git merge  远程仓库名  本地分支』
 git push  远程仓库名  本地分支名      推送本地分支仓库数据到远程仓库同名分支下（git 会在远端仓库新建一个同名分支）
 git commit -m "代码提交信息" 
-
 git commit -a             可跳过git add   操作 ， 直接将文件信息提交
 git  clone   url           拷贝一个项目到本地
 git branch                              查看分支
