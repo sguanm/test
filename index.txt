@@ -1,0 +1,39 @@
+git init  初始化
+git branch   //查看分支 
+git checkout branch  //切换分支
+git status    //查看状态
+git add .    //增加文件 .代表所有文件
+git commit -m '描述'  //提交
+git push     
+git branch master
+git rm -r filename   删除本地仓库文件名
+git rm -f filename   强制删除本地仓库文件名
+
+git remote             查看远端的仓库
+git pull   拉取远程数据仓库的数据  『合并了 git fetch 远程仓库  + git merge  远程仓库名  本地分支』
+git push  远程仓库名  本地分支名      推送本地分支仓库数据到远程仓库同名分支下（git 会在远端仓库新建一个同名分支）
+git commit -m "代码提交信息" 
+
+git commit -a             可跳过git add   操作 ， 直接将文件信息提交
+git  clone   url           拷贝一个项目到本地
+1.git branch                              查看分支
+
+2.git branch -r                      查看远程分支
+
+3.git branch  分支名                    本地创建分支
+
+4.git checkout -b 分支名                本地创建分支，并自动切换到给分支
+
+5.git checkout 分支名                       切换到相应的分支
+
+6.git branch  -d 分支名                     删除本地分支
+
+7.git push 远程仓库名  --delete <远程仓库分支名>          删除远程仓库的分支
+
+8.git branch -m devel develop     重命名本地分支   如： 将devel修改为 develop
+
+9.git merge  要合的分支名                  合并分支
+
+
+相关信息
+https://www.jianshu.com/p/9b040c70d4db
